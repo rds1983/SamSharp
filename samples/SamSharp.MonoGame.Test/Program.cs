@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Speech.Synthesis;
 
 namespace SamSharp.MonoGame.Test
 {

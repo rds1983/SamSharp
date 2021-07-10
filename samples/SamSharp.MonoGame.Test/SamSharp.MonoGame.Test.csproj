@@ -18,4 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\SamSharp.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Speech" />
+  </ItemGroup>
 </Project>
