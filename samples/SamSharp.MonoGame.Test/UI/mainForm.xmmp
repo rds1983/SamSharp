@@ -17,6 +17,10 @@
       <Label Text="Mouth:" />
       <SpinButton Maximum="255" Minimum="0" Value="128" Width="40" Id="_spinButtonMouth" />
       <TextButton Text="Play" Id="_buttonPlay" />
+      <ComboBox Id="_comboVersion" >
+        <ListItem Text="Original" />
+        <ListItem Text="Vidarh Port" />
+      </ComboBox>
     </HorizontalStackPanel>
     <HorizontalSeparator />
     <TextBox Text="The quick brown fox jumps over the lazy dog" Multiline="True" VerticalAlignment="Stretch" Id="_textBoxText" />

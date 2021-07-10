@@ -2,7 +2,7 @@
 
 using System;
 
-namespace SamSharp
+namespace SamSharp.Original
 {
 	unsafe partial class Sam
 	{
