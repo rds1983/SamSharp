@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>SamSharpTeam</Authors>
+    <Product>SamSharp</Product>
+    <PackageId>SamSharp</PackageId>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Description>C# port of the Sam</Description>
+    <PackageProjectUrl>https://github.com/SamSharp/SamSharp</PackageProjectUrl>
+    <Version>1.00.4</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>

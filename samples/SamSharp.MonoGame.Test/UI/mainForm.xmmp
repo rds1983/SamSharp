@@ -1,0 +1,24 @@
+<Project>
+  <Project.ExportOptions Namespace="SamSharp.MonoGame.Test.UI" Class="MainForm" OutputPath="C:\Projects\StbSharp\SamSharp\samples\SamSharp.MonoGame.Test\UI" />
+  <VerticalStackPanel>
+    <VerticalStackPanel.Proportions>
+      <Proportion Type="Auto" />
+      <Proportion Type="Auto" />
+      <Proportion Type="Fill" />
+    </VerticalStackPanel.Proportions>
+    <HorizontalStackPanel Spacing="8">
+      <CheckBox Text="Sing" Id="_checkBoxSing" />
+      <Label Text="Pitch:" />
+      <SpinButton Maximum="255" Minimum="0" Value="64" Width="40" Id="_spinButtonPitch" />
+      <Label Text="Speed:" />
+      <SpinButton Maximum="255" Minimum="0" Value="72" Width="40" Id="_spinButtonSpeed" />
+      <Label Text="Throat:" />
+      <SpinButton Maximum="255" Minimum="0" Value="128" Width="40" Id="_spinButtonThroat" />
+      <Label Text="Mouth:" />
+      <SpinButton Maximum="255" Minimum="0" Value="128" Width="40" Id="_spinButtonMouth" />
+      <TextButton Text="Play" Id="_buttonPlay" />
+    </HorizontalStackPanel>
+    <HorizontalSeparator />
+    <TextBox Text="The quick brown fox jumps over the lazy dog" Multiline="True" VerticalAlignment="Stretch" Id="_textBoxText" />
+  </VerticalStackPanel>
+</Project>

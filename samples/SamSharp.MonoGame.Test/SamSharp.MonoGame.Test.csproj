@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>SamSharpTeam</Authors>
+    <Product>SamSharp</Product>
+    <TargetFramework>net45</TargetFramework>
+    <Description>C# port of stb_truetype.h</Description>
+    <PackageLicense>https://github.com/rds1983/SamSharp#license</PackageLicense>
+    <PackageProjectUrl>https://github.com/rds1983/SamSharp</PackageProjectUrl>
+    <AssemblyName>SamSharp.MonoGame.Test</AssemblyName>
+    <RootNamespace>SamSharp</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.7.1.189" />
+    <PackageReference Include="Myra" Version="1.2.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SamSharp.csproj" />
+  </ItemGroup>
+</Project>
